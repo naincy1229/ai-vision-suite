@@ -1,10 +1,11 @@
 streamlit
 numpy
 Pillow
-opencv-python
+opencv-python-headless
+matplotlib
+tensorflow
+keras
 torch
 torchvision
-pytesseract
 transformers
-matplotlib
-scikit-learn
+pytesseract
