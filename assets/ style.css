@@ -1,0 +1,61 @@
+/* Title & Subtitle */
+h1.title {
+    text-align: center;
+    font-size: 3em;
+    background: -webkit-linear-gradient(45deg, #6a0dad, #00bfa6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.subtitle {
+    text-align: center;
+    color: #444;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Results */
+p.result {
+    text-align: center;
+    font-size: 1.5em;
+    color: #009688;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Info box */
+p.info-card {
+    background: #f3f0fa;
+    border-left: 5px solid #6a0dad;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+/* Benefits box */
+div.benefits {
+    background: #faf6ff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-left: 5px solid #6a0dad;
+    border-radius: 10px;
+}
+
+div.benefits h3 {
+    color: #6a0dad;
+    margin-bottom: 10px;
+}
+
+div.benefits ul {
+    list-style-type: '✨ ';
+    padding-left: 20px;
+}
+
+div.benefits li {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
