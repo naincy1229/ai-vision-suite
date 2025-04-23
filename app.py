@@ -1,14 +1,17 @@
-# app.py
 import streamlit as st
 import numpy as np
 from PIL import Image
 import os
 from io import BytesIO
+import pytesseract  # Tesseract import kiya gaya hai
 from utils import (
     detect_faces, detect_objects, detect_text, detect_emotions,
     estimate_age_gender, extract_image_info, apply_bokeh,
     apply_cartoon, apply_sketch, generate_caption
 )
+
+# Tesseract path set kar rahe
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Ye path set karna hai
 
 # App Configuration
 st.set_page_config(page_title="AI Vision Suite", page_icon="🧠", layout="wide")
